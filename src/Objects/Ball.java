@@ -1,6 +1,11 @@
 package Objects;
 
 public class Ball {
+	//Declaring a constant static variables that belongs to class Ball
+	public static final String OWNER ="MRU";
+	
+	//public final String SHAPE="Circle";
+	
 	private Color color;
 	private int size;
 	
@@ -33,4 +38,8 @@ public class Ball {
 		else
 			size=s;
 	}
+	public String getOwner() {
+		return OWNER;
+	}
+	
 }
