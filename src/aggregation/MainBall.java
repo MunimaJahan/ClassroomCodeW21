@@ -48,6 +48,8 @@ public class MainBall {
 		bas3.addBal(blueball);
 		bas3.addBal(new Ball("purple",5));
 		bas3.printBalls();*/
+		Ball blueball=new Ball("Blue",3);
+		System.out.println(blueball.toString());
 	}
 	public static void sum(int a, long b) {
 		long c=a+b;
