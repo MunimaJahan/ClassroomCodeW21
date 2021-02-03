@@ -21,7 +21,7 @@ public class MainBall {
 		bas3.addBal("Red", 2);
 		bas3.addBal("blue", 3);
 		bas3.addBal("green", 5);
-		bas3.printBalls();
+		//bas3.printBalls();
 		/*Ball redball;
 		redball=new Ball("Red",2);
 		Ball greenball= new Ball();
@@ -49,7 +49,8 @@ public class MainBall {
 		bas3.addBal(new Ball("purple",5));
 		bas3.printBalls();*/
 		Ball blueball=new Ball("Blue",3);
-		System.out.println(blueball.toString());
+		//System.out.println(blueball.toString());
+		System.out.println(bas3);
 	}
 	public static void sum(int a, long b) {
 		long c=a+b;

@@ -27,5 +27,12 @@ public class Basket {
 			System.out.println(b.getColor());
 		}
 	}
+	public String toString() {
+		String s=size+"\n ";
+		for(Ball b:balls) {
+			s=s+b+"\n";
+		}
+		return s;
+	}
 
 }
